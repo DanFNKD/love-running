@@ -16,7 +16,7 @@ body {
     flex-direction: column;
 /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;    
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 {
@@ -59,7 +59,7 @@ header a {
 }
 
 .active {
-border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -106,7 +106,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it's transparent */
-    background-color: rgba(241, 109, 107, 0.7);
+    background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -166,7 +166,7 @@ main {
 
 /* Meetup Times Section */
 #times {
-    background: url('../../images/dublin-city.webp') no-repeat center / cover;
+    background: url('../../images/dublin-city.webp') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +199,7 @@ main {
 }
 
 /* Form */
-#signup {
+.signup {
     background-image: url("../../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
@@ -207,13 +207,13 @@ main {
     flex-grow: 1;
 }
 
-#signup-form {
+.signup-form {
     color: #ffffff;
-    background-color: rgba(60, 0, 0, .6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
-#signup-form>h2 {
+.signup h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -241,22 +241,22 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #454b1b;
-    color:#fafafa
+    color: #fafafa
 }
 
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 50px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social-networks i {
-font-size: 160%;
-padding: 5%;
-color:#3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+    color:#3a3a3a;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -279,11 +279,11 @@ color:#3a3a3a;
     }
 
     #menu {
-        display:flex;
+        display: flex;
     }
 
     #menu > li {
-        padding-left: 1rem; 
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -298,7 +298,7 @@ color:#3a3a3a;
 
     /* Main content */
     main {
-        /* Push main content down to accomodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
@@ -337,7 +337,7 @@ color:#3a3a3a;
         position: relative;
     }
 
-    #signup-form {
+    #signup {
         max-width: 400px;
         position: absolute;
         left: 10%;
@@ -362,7 +362,7 @@ color:#3a3a3a;
 
 /* Gallery */
 #photos {
-    column-count: 4; 
+    column-count: 4;
         }
 }
 
@@ -374,7 +374,7 @@ color:#3a3a3a;
     }
 
     #benefits > div {
-        flex:1;
+        flex: 1;
     }
 
     #benefits-image {
